@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="coreUtilities.testlisteners.TestListener"/>
+    <listener class-name="coreUtilities.testlisteners.RetryListener"/>
+  </listeners>
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <parameter name="environment" value="dev"/>
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testcases.Facebook_AutomationTest">
+        <methods>
+          <include name="enterValueInSignupPage"/>
+          <include name="verifyAllFieldsArePresentInTheSignUpPage"/>
+          <include name="clickOnUpdateProfilePictureAndUploadProfilePicture"/>
+          <include name="loginTheFacebookByGivenValidCredetial"/>
+          <include name="clickOnLogoutButton"/>
+          <include name="goToThePreviousPageAndClickOnAccount"/>
+          <include name="enterValidEmail_PasswordInTextFieldAndVerifyLoginButtonIsPresentOrNot"/>
+          <include name="goBackToLogInPageAndValidateCreateNewAccountButtonIsPresentOrNot"/>
+          <include name="selectAnyYearFromYearDropdownAndVerifyYearDropdownIsPrsentOrNot"/>
+          <include name="selectAnyDateFromDateDropdownAndVerifyDateDropdownIsPrsentOrNot"/>
+          <include name="afterLoggedInValidateTheTitleOfFacebookHomePage"/>
+          <include name="validateErrorMessageWithoutProvidePassword"/>
+          <include name="initBrowser"/>
+          <include name="verifyPresenceOfAllFieldsinTheLoginPage"/>
+          <include name="validateFacebookTitleofLoginPage"/>
+          <include name="verifyAllprsenceOfFieldAfterCloseTheSignupPage"/>
+          <include name="enterFirstNameInFirstNameTextFieldOfTheSignupPage"/>
+          <include name="validateErrorMessageWithoutProvideAnyCredentials"/>
+          <include name="validateErrorMessageWithoutProvideEmailOrPhoneNumber"/>
+          <include name="tearDown"/>
+          <include name="click_on_forgetten_account_link_then_validate_Email_adddress_Or_phone_number_field"/>
+          <include name="selectAnyMonthFromMonthDropdownAndVerifyMonthDropdownIsPrsentOrNot"/>
+          <include name="clickOnProfileAndValidateTheProfileName"/>
+        </methods>
+      </class> <!-- testcases.Facebook_AutomationTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

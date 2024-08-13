@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="0" failed="0" skipped="21">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-30T12:48:06 IST" name="Suite" finished-at="2024-07-30T12:49:15 IST" duration-ms="69087">
+    <groups>
+      <group name="sanity">
+        <method signature="Facebook_AutomationTest.validateFacebookTitleofLoginPage()[pri:1, instance:testcases.Facebook_AutomationTest@36453307]" name="validateFacebookTitleofLoginPage" class="testcases.Facebook_AutomationTest"/>
+        <method signature="Facebook_AutomationTest.verifyPresenceOfAllFieldsinTheLoginPage()[pri:2, instance:testcases.Facebook_AutomationTest@36453307]" name="verifyPresenceOfAllFieldsinTheLoginPage" class="testcases.Facebook_AutomationTest"/>
+        <method signature="Facebook_AutomationTest.validateErrorMessageWithoutProvideAnyCredentials()[pri:3, instance:testcases.Facebook_AutomationTest@36453307]" name="validateErrorMessageWithoutProvideAnyCredentials" class="testcases.Facebook_AutomationTest"/>
+        <method signature="Facebook_AutomationTest.validateErrorMessageWithoutProvidePassword()[pri:4, instance:testcases.Facebook_AutomationTest@36453307]" name="validateErrorMessageWithoutProvidePassword" class="testcases.Facebook_AutomationTest"/>
+        <method signature="Facebook_AutomationTest.validateErrorMessageWithoutProvideEmailOrPhoneNumber()[pri:5, instance:testcases.Facebook_AutomationTest@36453307]" name="validateErrorMessageWithoutProvideEmailOrPhoneNumber" class="testcases.Facebook_AutomationTest"/>
+        <method signature="Facebook_AutomationTest.goBackToLogInPageAndValidateCreateNewAccountButtonIsPresentOrNot()[pri:6, instance:testcases.Facebook_AutomationTest@36453307]" name="goBackToLogInPageAndValidateCreateNewAccountButtonIsPresentOrNot" class="testcases.Facebook_AutomationTest"/>
+        <method signature="Facebook_AutomationTest.click_on_forgetten_account_link_then_validate_Email_adddress_Or_phone_number_field()[pri:7, instance:testcases.Facebook_AutomationTest@36453307]" name="click_on_forgetten_account_link_then_validate_Email_adddress_Or_phone_number_field" class="testcases.Facebook_AutomationTest"/>
+        <method signature="Facebook_AutomationTest.verifyAllFieldsArePresentInTheSignUpPage()[pri:8, instance:testcases.Facebook_AutomationTest@36453307]" name="verifyAllFieldsArePresentInTheSignUpPage" class="testcases.Facebook_AutomationTest"/>
+        <method signature="Facebook_AutomationTest.enterFirstNameInFirstNameTextFieldOfTheSignupPage()[pri:9, instance:testcases.Facebook_AutomationTest@36453307]" name="enterFirstNameInFirstNameTextFieldOfTheSignupPage" class="testcases.Facebook_AutomationTest"/>
+        <method signature="Facebook_AutomationTest.enterValueInSignupPage()[pri:10, instance:testcases.Facebook_AutomationTest@36453307]" name="enterValueInSignupPage" class="testcases.Facebook_AutomationTest"/>
+        <method signature="Facebook_AutomationTest.selectAnyDateFromDateDropdownAndVerifyDateDropdownIsPrsentOrNot()[pri:11, instance:testcases.Facebook_AutomationTest@36453307]" name="selectAnyDateFromDateDropdownAndVerifyDateDropdownIsPrsentOrNot" class="testcases.Facebook_AutomationTest"/>
+        <method signature="Facebook_AutomationTest.selectAnyMonthFromMonthDropdownAndVerifyMonthDropdownIsPrsentOrNot()[pri:12, instance:testcases.Facebook_AutomationTest@36453307]" name="selectAnyMonthFromMonthDropdownAndVerifyMonthDropdownIsPrsentOrNot" class="testcases.Facebook_AutomationTest"/>
+        <method signature="Facebook_AutomationTest.selectAnyYearFromYearDropdownAndVerifyYearDropdownIsPrsentOrNot()[pri:13, instance:testcases.Facebook_AutomationTest@36453307]" name="selectAnyYearFromYearDropdownAndVerifyYearDropdownIsPrsentOrNot" class="testcases.Facebook_AutomationTest"/>
+        <method signature="Facebook_AutomationTest.verifyAllprsenceOfFieldAfterCloseTheSignupPage()[pri:14, instance:testcases.Facebook_AutomationTest@36453307]" name="verifyAllprsenceOfFieldAfterCloseTheSignupPage" class="testcases.Facebook_AutomationTest"/>
+        <method signature="Facebook_AutomationTest.enterValidEmail_PasswordInTextFieldAndVerifyLoginButtonIsPresentOrNot()[pri:15, instance:testcases.Facebook_AutomationTest@36453307]" name="enterValidEmail_PasswordInTextFieldAndVerifyLoginButtonIsPresentOrNot" class="testcases.Facebook_AutomationTest"/>
+        <method signature="Facebook_AutomationTest.loginTheFacebookByGivenValidCredetial()[pri:16, instance:testcases.Facebook_AutomationTest@36453307]" name="loginTheFacebookByGivenValidCredetial" class="testcases.Facebook_AutomationTest"/>
+        <method signature="Facebook_AutomationTest.afterLoggedInValidateTheTitleOfFacebookHomePage()[pri:17, instance:testcases.Facebook_AutomationTest@36453307]" name="afterLoggedInValidateTheTitleOfFacebookHomePage" class="testcases.Facebook_AutomationTest"/>
+        <method signature="Facebook_AutomationTest.clickOnProfileAndValidateTheProfileName()[pri:18, instance:testcases.Facebook_AutomationTest@36453307]" name="clickOnProfileAndValidateTheProfileName" class="testcases.Facebook_AutomationTest"/>
+        <method signature="Facebook_AutomationTest.clickOnUpdateProfilePictureAndUploadProfilePicture()[pri:19, instance:testcases.Facebook_AutomationTest@36453307]" name="clickOnUpdateProfilePictureAndUploadProfilePicture" class="testcases.Facebook_AutomationTest"/>
+        <method signature="Facebook_AutomationTest.goToThePreviousPageAndClickOnAccount()[pri:20, instance:testcases.Facebook_AutomationTest@36453307]" name="goToThePreviousPageAndClickOnAccount" class="testcases.Facebook_AutomationTest"/>
+        <method signature="Facebook_AutomationTest.clickOnLogoutButton()[pri:21, instance:testcases.Facebook_AutomationTest@36453307]" name="clickOnLogoutButton" class="testcases.Facebook_AutomationTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-07-30T12:48:06 IST" name="Test" finished-at="2024-07-30T12:49:15 IST" duration-ms="69087">
+      <class name="testcases.Facebook_AutomationTest">
+        <test-method is-config="true" signature="initBrowser(java.lang.String,java.lang.String)[pri:0, instance:testcases.Facebook_AutomationTest@36453307]" started-at="2024-07-30T12:48:06 IST" name="initBrowser" finished-at="2024-07-30T12:48:06 IST" duration-ms="29" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null
+at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method signature="validateFacebookTitleofLoginPage()[pri:1, instance:testcases.Facebook_AutomationTest@36453307]" started-at="2024-07-30T12:48:06 IST" name="validateFacebookTitleofLoginPage" description="Navigate to the URL and Validate the fa LogIn Page Title" finished-at="2024-07-30T12:48:06 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null
+at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFacebookTitleofLoginPage -->
+        <test-method signature="verifyPresenceOfAllFieldsinTheLoginPage()[pri:2, instance:testcases.Facebook_AutomationTest@36453307]" started-at="2024-07-30T12:48:11 IST" name="verifyPresenceOfAllFieldsinTheLoginPage" description="verify Presence Of All Fields in The Login Page" finished-at="2024-07-30T12:48:11 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null
+at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPresenceOfAllFieldsinTheLoginPage -->
+        <test-method signature="validateErrorMessageWithoutProvideAnyCredentials()[pri:3, instance:testcases.Facebook_AutomationTest@36453307]" started-at="2024-07-30T12:48:14 IST" name="validateErrorMessageWithoutProvideAnyCredentials" description="validate the error message, when user does not provide any credentials" finished-at="2024-07-30T12:48:14 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null
+at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorMessageWithoutProvideAnyCredentials -->
+        <test-method signature="validateErrorMessageWithoutProvidePassword()[pri:4, instance:testcases.Facebook_AutomationTest@36453307]" started-at="2024-07-30T12:48:17 IST" name="validateErrorMessageWithoutProvidePassword" description="Enter Email or Phone No in Email or Phone No Text field and click on Login and validate Error Message" finished-at="2024-07-30T12:48:17 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null
+at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorMessageWithoutProvidePassword -->
+        <test-method signature="validateErrorMessageWithoutProvideEmailOrPhoneNumber()[pri:5, instance:testcases.Facebook_AutomationTest@36453307]" started-at="2024-07-30T12:48:20 IST" name="validateErrorMessageWithoutProvideEmailOrPhoneNumber" description="Enter Password in password Text field and click on Login and validate Error Message" finished-at="2024-07-30T12:48:20 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null
+at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorMessageWithoutProvideEmailOrPhoneNumber -->
+        <test-method signature="goBackToLogInPageAndValidateCreateNewAccountButtonIsPresentOrNot()[pri:6, instance:testcases.Facebook_AutomationTest@36453307]" started-at="2024-07-30T12:48:24 IST" name="goBackToLogInPageAndValidateCreateNewAccountButtonIsPresentOrNot" description="Go Back To LogIn Page And Validate CreateNewAccount button Is Present or not" finished-at="2024-07-30T12:48:24 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null
+at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goBackToLogInPageAndValidateCreateNewAccountButtonIsPresentOrNot -->
+        <test-method signature="click_on_forgetten_account_link_then_validate_Email_adddress_Or_phone_number_field()[pri:7, instance:testcases.Facebook_AutomationTest@36453307]" started-at="2024-07-30T12:48:27 IST" name="click_on_forgetten_account_link_then_validate_Email_adddress_Or_phone_number_field" description="Click on Create Account Button and Verify nevigate to the signUp page." finished-at="2024-07-30T12:48:27 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null
+at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_on_forgetten_account_link_then_validate_Email_adddress_Or_phone_number_field -->
+        <test-method signature="verifyAllFieldsArePresentInTheSignUpPage()[pri:8, instance:testcases.Facebook_AutomationTest@36453307]" started-at="2024-07-30T12:48:30 IST" name="verifyAllFieldsArePresentInTheSignUpPage" description="verify first name,surname,Mobile Number email address,New password field are present in the signup page." finished-at="2024-07-30T12:48:30 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null
+at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllFieldsArePresentInTheSignUpPage -->
+        <test-method signature="enterFirstNameInFirstNameTextFieldOfTheSignupPage()[pri:9, instance:testcases.Facebook_AutomationTest@36453307]" started-at="2024-07-30T12:48:33 IST" name="enterFirstNameInFirstNameTextFieldOfTheSignupPage" description="Enter data in the first name field" finished-at="2024-07-30T12:48:33 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null
+at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterFirstNameInFirstNameTextFieldOfTheSignupPage -->
+        <test-method signature="enterValueInSignupPage()[pri:10, instance:testcases.Facebook_AutomationTest@36453307]" started-at="2024-07-30T12:48:36 IST" name="enterValueInSignupPage" description="Enter data (Read the data from Json File)in the surname,Mobile Number email address,New password field." finished-at="2024-07-30T12:48:36 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null
+at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterValueInSignupPage -->
+        <test-method signature="selectAnyDateFromDateDropdownAndVerifyDateDropdownIsPrsentOrNot()[pri:11, instance:testcases.Facebook_AutomationTest@36453307]" started-at="2024-07-30T12:48:39 IST" name="selectAnyDateFromDateDropdownAndVerifyDateDropdownIsPrsentOrNot" description="Select any date from date dropdown field and and verify the date dropdown is present or not" finished-at="2024-07-30T12:48:39 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null
+at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectAnyDateFromDateDropdownAndVerifyDateDropdownIsPrsentOrNot -->
+        <test-method signature="selectAnyMonthFromMonthDropdownAndVerifyMonthDropdownIsPrsentOrNot()[pri:12, instance:testcases.Facebook_AutomationTest@36453307]" started-at="2024-07-30T12:48:43 IST" name="selectAnyMonthFromMonthDropdownAndVerifyMonthDropdownIsPrsentOrNot" description="Select any Month from month dropdown field and and verify the Month dropdown is present or not" finished-at="2024-07-30T12:48:43 IST" duration-ms="1" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null
+at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectAnyMonthFromMonthDropdownAndVerifyMonthDropdownIsPrsentOrNot -->
+        <test-method signature="selectAnyYearFromYearDropdownAndVerifyYearDropdownIsPrsentOrNot()[pri:13, instance:testcases.Facebook_AutomationTest@36453307]" started-at="2024-07-30T12:48:46 IST" name="selectAnyYearFromYearDropdownAndVerifyYearDropdownIsPrsentOrNot" description="Select any Year from the Year dropdown field and and verify the Year dropdown is present or not" finished-at="2024-07-30T12:48:46 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null
+at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectAnyYearFromYearDropdownAndVerifyYearDropdownIsPrsentOrNot -->
+        <test-method signature="verifyAllprsenceOfFieldAfterCloseTheSignupPage()[pri:14, instance:testcases.Facebook_AutomationTest@36453307]" started-at="2024-07-30T12:48:49 IST" name="verifyAllprsenceOfFieldAfterCloseTheSignupPage" description="close the &quot;signup&quot; page and verify the All Fields present in The Login Page or not" finished-at="2024-07-30T12:48:49 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null
+at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllprsenceOfFieldAfterCloseTheSignupPage -->
+        <test-method signature="enterValidEmail_PasswordInTextFieldAndVerifyLoginButtonIsPresentOrNot()[pri:15, instance:testcases.Facebook_AutomationTest@36453307]" started-at="2024-07-30T12:48:52 IST" name="enterValidEmail_PasswordInTextFieldAndVerifyLoginButtonIsPresentOrNot" description="Enter valid email or phone no in  email or phone no text field and enter password in password textfield and validate &quot;login&quot; button is present or not" finished-at="2024-07-30T12:48:52 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null
+at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterValidEmail_PasswordInTextFieldAndVerifyLoginButtonIsPresentOrNot -->
+        <test-method signature="loginTheFacebookByGivenValidCredetial()[pri:16, instance:testcases.Facebook_AutomationTest@36453307]" started-at="2024-07-30T12:48:56 IST" name="loginTheFacebookByGivenValidCredetial" description="login the facebook by given valid credential" finished-at="2024-07-30T12:48:56 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null
+at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTheFacebookByGivenValidCredetial -->
+        <test-method signature="afterLoggedInValidateTheTitleOfFacebookHomePage()[pri:17, instance:testcases.Facebook_AutomationTest@36453307]" started-at="2024-07-30T12:48:59 IST" name="afterLoggedInValidateTheTitleOfFacebookHomePage" description="after Logged In, Validate the title of Facebook Home Page" finished-at="2024-07-30T12:48:59 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null
+at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterLoggedInValidateTheTitleOfFacebookHomePage -->
+        <test-method signature="clickOnProfileAndValidateTheProfileName()[pri:18, instance:testcases.Facebook_AutomationTest@36453307]" started-at="2024-07-30T12:49:02 IST" name="clickOnProfileAndValidateTheProfileName" description="ClickOn Profile Icon and Validate the Profile Name" finished-at="2024-07-30T12:49:02 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null
+at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnProfileAndValidateTheProfileName -->
+        <test-method signature="clickOnUpdateProfilePictureAndUploadProfilePicture()[pri:19, instance:testcases.Facebook_AutomationTest@36453307]" started-at="2024-07-30T12:49:05 IST" name="clickOnUpdateProfilePictureAndUploadProfilePicture" description="Upload a profile Picture " finished-at="2024-07-30T12:49:05 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null
+at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnUpdateProfilePictureAndUploadProfilePicture -->
+        <test-method signature="goToThePreviousPageAndClickOnAccount()[pri:20, instance:testcases.Facebook_AutomationTest@36453307]" started-at="2024-07-30T12:49:08 IST" name="goToThePreviousPageAndClickOnAccount" description="Go to the previous page and click on Account at the right top corner" finished-at="2024-07-30T12:49:08 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null
+at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToThePreviousPageAndClickOnAccount -->
+        <test-method signature="clickOnLogoutButton()[pri:21, instance:testcases.Facebook_AutomationTest@36453307]" started-at="2024-07-30T12:49:12 IST" name="clickOnLogoutButton" description="After that click on logout button" finished-at="2024-07-30T12:49:12 IST" duration-ms="1" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "this.configData" is null
+at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLogoutButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.Facebook_AutomationTest@36453307]" started-at="2024-07-30T12:49:15 IST" name="tearDown" finished-at="2024-07-30T12:49:15 IST" duration-ms="33" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+at coreUtilities.testbase.TestBase.browserTearDown(TestBase.java:103)
+at testcases.Facebook_AutomationTest.tearDown(Facebook_AutomationTest.java:218)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:229)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:215)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:131)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.Facebook_AutomationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

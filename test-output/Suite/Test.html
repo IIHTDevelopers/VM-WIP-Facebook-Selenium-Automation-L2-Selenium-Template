@@ -1,0 +1,644 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/21</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jul 30 12:48:06 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>69 seconds (69087 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>sanity </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.Facebook_AutomationTest.tearDown()'><b>tearDown</b><br>Test class: testcases.Facebook_AutomationTest</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null
+	at coreUtilities.testbase.TestBase.browserTearDown(TestBase.java:103)
+	at testcases.Facebook_AutomationTest.tearDown(Facebook_AutomationTest.java:218)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 9 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace358655249", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace358655249'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null
+	at coreUtilities.testbase.TestBase.browserTearDown(TestBase.java:103)
+	at testcases.Facebook_AutomationTest.tearDown(Facebook_AutomationTest.java:218)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:229)
+	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:215)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:131)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+</pre></div></td>
+<td>0</td>
+<td>testcases.Facebook_AutomationTest@36453307</td></tr>
+<tr>
+<td title='testcases.Facebook_AutomationTest.initBrowser()'><b>initBrowser</b><br>Test class: testcases.Facebook_AutomationTest<br>Parameters: chrome, dev</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace682483046", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace682483046'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+</pre></div></td>
+<td>0</td>
+<td>testcases.Facebook_AutomationTest@36453307</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.Facebook_AutomationTest.enterFirstNameInFirstNameTextFieldOfTheSignupPage()'><b>enterFirstNameInFirstNameTextFieldOfTheSignupPage</b><br>Test class: testcases.Facebook_AutomationTest<br>Test method: Enter data in the first name field</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace683528639", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace683528639'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+</pre></div></td>
+<td>0</td>
+<td>testcases.Facebook_AutomationTest@36453307</td></tr>
+<tr>
+<td title='testcases.Facebook_AutomationTest.enterValueInSignupPage()'><b>enterValueInSignupPage</b><br>Test class: testcases.Facebook_AutomationTest<br>Test method: Enter data (Read the data from Json File)in the surname,Mobile Number email address,New password field.</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1772389638", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1772389638'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+</pre></div></td>
+<td>0</td>
+<td>testcases.Facebook_AutomationTest@36453307</td></tr>
+<tr>
+<td title='testcases.Facebook_AutomationTest.validateErrorMessageWithoutProvideEmailOrPhoneNumber()'><b>validateErrorMessageWithoutProvideEmailOrPhoneNumber</b><br>Test class: testcases.Facebook_AutomationTest<br>Test method: Enter Password in password Text field and click on Login and validate Error Message</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2018443433", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2018443433'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+</pre></div></td>
+<td>0</td>
+<td>testcases.Facebook_AutomationTest@36453307</td></tr>
+<tr>
+<td title='testcases.Facebook_AutomationTest.clickOnLogoutButton()'><b>clickOnLogoutButton</b><br>Test class: testcases.Facebook_AutomationTest<br>Test method: After that click on logout button</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1556896810", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1556896810'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+</pre></div></td>
+<td>0</td>
+<td>testcases.Facebook_AutomationTest@36453307</td></tr>
+<tr>
+<td title='testcases.Facebook_AutomationTest.verifyAllprsenceOfFieldAfterCloseTheSignupPage()'><b>verifyAllprsenceOfFieldAfterCloseTheSignupPage</b><br>Test class: testcases.Facebook_AutomationTest<br>Test method: close the "signup" page and verify the All Fields present in The Login Page or not</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace609517020", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace609517020'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+</pre></div></td>
+<td>0</td>
+<td>testcases.Facebook_AutomationTest@36453307</td></tr>
+<tr>
+<td title='testcases.Facebook_AutomationTest.clickOnProfileAndValidateTheProfileName()'><b>clickOnProfileAndValidateTheProfileName</b><br>Test class: testcases.Facebook_AutomationTest<br>Test method: ClickOn Profile Icon and Validate the Profile Name</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1345217958", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1345217958'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+</pre></div></td>
+<td>0</td>
+<td>testcases.Facebook_AutomationTest@36453307</td></tr>
+<tr>
+<td title='testcases.Facebook_AutomationTest.selectAnyMonthFromMonthDropdownAndVerifyMonthDropdownIsPrsentOrNot()'><b>selectAnyMonthFromMonthDropdownAndVerifyMonthDropdownIsPrsentOrNot</b><br>Test class: testcases.Facebook_AutomationTest<br>Test method: Select any Month from month dropdown field and and verify the Month dropdown is present or not</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace377138195", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace377138195'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+</pre></div></td>
+<td>0</td>
+<td>testcases.Facebook_AutomationTest@36453307</td></tr>
+<tr>
+<td title='testcases.Facebook_AutomationTest.validateFacebookTitleofLoginPage()'><b>validateFacebookTitleofLoginPage</b><br>Test class: testcases.Facebook_AutomationTest<br>Test method: Navigate to the URL and Validate the fa LogIn Page Title</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1932796478", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1932796478'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+</pre></div></td>
+<td>0</td>
+<td>testcases.Facebook_AutomationTest@36453307</td></tr>
+<tr>
+<td title='testcases.Facebook_AutomationTest.afterLoggedInValidateTheTitleOfFacebookHomePage()'><b>afterLoggedInValidateTheTitleOfFacebookHomePage</b><br>Test class: testcases.Facebook_AutomationTest<br>Test method: after Logged In, Validate the title of Facebook Home Page</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1047167424", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1047167424'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+</pre></div></td>
+<td>0</td>
+<td>testcases.Facebook_AutomationTest@36453307</td></tr>
+<tr>
+<td title='testcases.Facebook_AutomationTest.goToThePreviousPageAndClickOnAccount()'><b>goToThePreviousPageAndClickOnAccount</b><br>Test class: testcases.Facebook_AutomationTest<br>Test method: Go to the previous page and click on Account at the right top corner</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1103364750", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1103364750'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+</pre></div></td>
+<td>0</td>
+<td>testcases.Facebook_AutomationTest@36453307</td></tr>
+<tr>
+<td title='testcases.Facebook_AutomationTest.clickOnUpdateProfilePictureAndUploadProfilePicture()'><b>clickOnUpdateProfilePictureAndUploadProfilePicture</b><br>Test class: testcases.Facebook_AutomationTest<br>Test method: Upload a profile Picture </td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1537232140", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1537232140'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+</pre></div></td>
+<td>0</td>
+<td>testcases.Facebook_AutomationTest@36453307</td></tr>
+<tr>
+<td title='testcases.Facebook_AutomationTest.click_on_forgetten_account_link_then_validate_Email_adddress_Or_phone_number_field()'><b>click_on_forgetten_account_link_then_validate_Email_adddress_Or_phone_number_field</b><br>Test class: testcases.Facebook_AutomationTest<br>Test method: Click on Create Account Button and Verify nevigate to the signUp page.</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1244850684", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1244850684'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+</pre></div></td>
+<td>0</td>
+<td>testcases.Facebook_AutomationTest@36453307</td></tr>
+<tr>
+<td title='testcases.Facebook_AutomationTest.loginTheFacebookByGivenValidCredetial()'><b>loginTheFacebookByGivenValidCredetial</b><br>Test class: testcases.Facebook_AutomationTest<br>Test method: login the facebook by given valid credential</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace719113043", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace719113043'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+</pre></div></td>
+<td>0</td>
+<td>testcases.Facebook_AutomationTest@36453307</td></tr>
+<tr>
+<td title='testcases.Facebook_AutomationTest.validateErrorMessageWithoutProvideAnyCredentials()'><b>validateErrorMessageWithoutProvideAnyCredentials</b><br>Test class: testcases.Facebook_AutomationTest<br>Test method: validate the error message, when user does not provide any credentials</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace948665115", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace948665115'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+</pre></div></td>
+<td>0</td>
+<td>testcases.Facebook_AutomationTest@36453307</td></tr>
+<tr>
+<td title='testcases.Facebook_AutomationTest.enterValidEmail_PasswordInTextFieldAndVerifyLoginButtonIsPresentOrNot()'><b>enterValidEmail_PasswordInTextFieldAndVerifyLoginButtonIsPresentOrNot</b><br>Test class: testcases.Facebook_AutomationTest<br>Test method: Enter valid email or phone no in  email or phone no text field and enter password in password textfield and validate "login" button is present or not</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace546903976", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace546903976'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+</pre></div></td>
+<td>0</td>
+<td>testcases.Facebook_AutomationTest@36453307</td></tr>
+<tr>
+<td title='testcases.Facebook_AutomationTest.verifyPresenceOfAllFieldsinTheLoginPage()'><b>verifyPresenceOfAllFieldsinTheLoginPage</b><br>Test class: testcases.Facebook_AutomationTest<br>Test method: verify Presence Of All Fields in The Login Page</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace196807944", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace196807944'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+</pre></div></td>
+<td>0</td>
+<td>testcases.Facebook_AutomationTest@36453307</td></tr>
+<tr>
+<td title='testcases.Facebook_AutomationTest.validateErrorMessageWithoutProvidePassword()'><b>validateErrorMessageWithoutProvidePassword</b><br>Test class: testcases.Facebook_AutomationTest<br>Test method: Enter Email or Phone No in Email or Phone No Text field and click on Login and validate Error Message</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1477922276", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1477922276'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+</pre></div></td>
+<td>0</td>
+<td>testcases.Facebook_AutomationTest@36453307</td></tr>
+<tr>
+<td title='testcases.Facebook_AutomationTest.selectAnyYearFromYearDropdownAndVerifyYearDropdownIsPrsentOrNot()'><b>selectAnyYearFromYearDropdownAndVerifyYearDropdownIsPrsentOrNot</b><br>Test class: testcases.Facebook_AutomationTest<br>Test method: Select any Year from the Year dropdown field and and verify the Year dropdown is present or not</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1615276275", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1615276275'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+</pre></div></td>
+<td>0</td>
+<td>testcases.Facebook_AutomationTest@36453307</td></tr>
+<tr>
+<td title='testcases.Facebook_AutomationTest.goBackToLogInPageAndValidateCreateNewAccountButtonIsPresentOrNot()'><b>goBackToLogInPageAndValidateCreateNewAccountButtonIsPresentOrNot</b><br>Test class: testcases.Facebook_AutomationTest<br>Test method: Go Back To LogIn Page And Validate CreateNewAccount button Is Present or not</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace779620448", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace779620448'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+</pre></div></td>
+<td>0</td>
+<td>testcases.Facebook_AutomationTest@36453307</td></tr>
+<tr>
+<td title='testcases.Facebook_AutomationTest.selectAnyDateFromDateDropdownAndVerifyDateDropdownIsPrsentOrNot()'><b>selectAnyDateFromDateDropdownAndVerifyDateDropdownIsPrsentOrNot</b><br>Test class: testcases.Facebook_AutomationTest<br>Test method: Select any date from date dropdown field and and verify the date dropdown is present or not</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace931704465", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace931704465'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+</pre></div></td>
+<td>0</td>
+<td>testcases.Facebook_AutomationTest@36453307</td></tr>
+<tr>
+<td title='testcases.Facebook_AutomationTest.verifyAllFieldsArePresentInTheSignUpPage()'><b>verifyAllFieldsArePresentInTheSignUpPage</b><br>Test class: testcases.Facebook_AutomationTest<br>Test method: verify first name,surname,Mobile Number email address,New password field are present in the signup page.</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2021272646", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2021272646'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.get(Object)&quot; because &quot;this.configData&quot; is null
+	at testcases.Facebook_AutomationTest.initBrowser(Facebook_AutomationTest.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+</pre></div></td>
+<td>0</td>
+<td>testcases.Facebook_AutomationTest@36453307</td></tr>
+</table><p>
+</body>
+</html>
